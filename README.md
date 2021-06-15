@@ -5,7 +5,7 @@ Keywords: big data, specific emotion, emotion hashtags, emotion labelled tweets,
 
 # Python code example
 import pandas as pd
-df = pd.read_csv('6H-AP_emotion-labelled_tweets_dataset.dat', sep='\t', encoding='utf-16')
 
+df = pd.read_csv('6H-AP_emotion-labelled_tweets_dataset.dat', sep='\t', encoding='utf-16')
 
 ![image](https://user-images.githubusercontent.com/85970005/122137688-56696d00-ce99-11eb-9aa5-dc8f41af8448.png)
