@@ -8,16 +8,4 @@ import pandas as pd
 df = pd.read_csv('6H-AP_emotion-labelled_tweets_dataset.dat', sep='\t', encoding='utf-16')
 
 
-id	tweets	hastags	emotions	length
-17	50414935	How i wish we had a competent government No wo...	anger	#anger	104
-25	50144143	We must help the children So much So much viol...	anger	#anger	63
-29	50341011	Getting woken up now and I have to be up at ahh	anger	#anger	48
-52	50079290	Your anger only truly hurts one person and tha...	anger	#anger	241
-61	50332223	come out let's get real about anger management...	anger	#anger	86
-...	...	...	...	...	...
-3516874	55331963	Shoutout to my New Followers I usually Clown ...	surprise	#surprise	96
-3516896	55381596	it is friday I'm wearing my fridaynosaur shirt...	surprise	#surprise	65
-3516953	55220607	Whoa I didnotexpectthat	surprise	#surprise	24
-3516955	55057571	Zero I don t need help at the moment sewing ca...	surprise	#surprise	62
-3516962	55001309	Happy Friday to me When you get a surprise gif...	surprise	#surprise	105
-
+![image](https://user-images.githubusercontent.com/85970005/122137688-56696d00-ce99-11eb-9aa5-dc8f41af8448.png)
