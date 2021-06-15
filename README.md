@@ -7,6 +7,7 @@ Keywords: big data, specific emotion, emotion hashtags, emotion labelled tweets,
 import pandas as pd
 df = pd.read_csv('6H-AP_emotion-labelled_tweets_dataset.dat', sep='\t', encoding='utf-16')
 
+
 id	tweets	hastags	emotions	length
 17	50414935	How i wish we had a competent government No wo...	anger	#anger	104
 25	50144143	We must help the children So much So much viol...	anger	#anger	63
@@ -19,3 +20,4 @@ id	tweets	hastags	emotions	length
 3516953	55220607	Whoa I didnotexpectthat	surprise	#surprise	24
 3516955	55057571	Zero I don t need help at the moment sewing ca...	surprise	#surprise	62
 3516962	55001309	Happy Friday to me When you get a surprise gif...	surprise	#surprise	105
+
