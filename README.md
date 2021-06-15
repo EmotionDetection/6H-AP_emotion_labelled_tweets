@@ -5,7 +5,7 @@ Keywords: big data, specific emotion, emotion hashtags, emotion labelled tweets,
 
 # Python code example
 import pandas as pd
-df = pd.read_csv('6H-AP_emotion-labelled_tweets_dataset.dat', sep='\t', encoding='utf-16',index=False)
+df = pd.read_csv('6H-AP_emotion-labelled_tweets_dataset.dat', sep='\t', encoding='utf-16')
 
 id	tweets	hastags	emotions	length
 17	50414935	How i wish we had a competent government No wo...	anger	#anger	104
