@@ -8,4 +8,10 @@ import pandas as pd
 
 df = pd.read_csv('6H-AP_emotion-labelled_tweets_dataset.dat', sep='\t', encoding='utf-16')
 
-![image](https://user-images.githubusercontent.com/85970005/122137790-903a7380-ce99-11eb-91fc-248d9f661a1e.png)
+![image](https://user-images.githubusercontent.com/85970005/122152643-b241ef00-ceb5-11eb-96af-a64fe20c3675.png)
+
+import seaborn as sns
+
+sns.countplot(df['emotions'])
+
+![image](https://user-images.githubusercontent.com/85970005/122152724-d1d91780-ceb5-11eb-9416-1e4219fab1fa.png)
