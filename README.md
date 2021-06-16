@@ -5,8 +5,12 @@ Keywords: big data, specific emotion, emotion hashtags, emotion labelled tweets,
 
 # Python code example
 import pandas as pd
+import seaborn as sns
 
 df = pd.read_csv('6H-AP_emotion-labelled_tweets_dataset.dat', sep='\t', encoding='utf-16')
 
 ![image](https://user-images.githubusercontent.com/85970005/122148410-938c2a00-ceae-11eb-8da3-a0b4e43398ab.png)
 
+sns.countplot(train_data['Emotions'])
+
+![image](https://user-images.githubusercontent.com/85970005/122148658-f8e01b00-ceae-11eb-8432-aa83fb4a172c.png)
