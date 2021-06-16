@@ -11,7 +11,7 @@ df = pd.read_csv('6H-AP_emotion-labelled_tweets_dataset.dat', sep='\t', encoding
 
 ![image](https://user-images.githubusercontent.com/85970005/122148410-938c2a00-ceae-11eb-8da3-a0b4e43398ab.png)
 
-sns.countplot(train_data['Emotions'])
+sns.countplot(df['emotions'])
 
 ![image](https://user-images.githubusercontent.com/85970005/122148827-3644a880-ceaf-11eb-807b-7c8b14e2702f.png)
 
