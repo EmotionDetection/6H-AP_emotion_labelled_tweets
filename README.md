@@ -8,4 +8,5 @@ import pandas as pd
 
 df = pd.read_csv('6H-AP_emotion-labelled_tweets_dataset.dat', sep='\t', encoding='utf-16')
 
-![image](https://user-images.githubusercontent.com/85970005/122137790-903a7380-ce99-11eb-91fc-248d9f661a1e.png)
+![image](https://user-images.githubusercontent.com/85970005/122148410-938c2a00-ceae-11eb-8da3-a0b4e43398ab.png)
+
