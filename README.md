@@ -15,7 +15,8 @@ import seaborn as sns
 
 sns.countplot(df['emotions'])
 
-![image](https://user-images.githubusercontent.com/85970005/129505255-81830c87-d768-420a-b70d-42046e0ddf74.png)
+![image](https://user-images.githubusercontent.com/85970005/129505364-f358bc39-137d-4c6d-9094-39ffc908d5f1.png)
+
 
 
 
