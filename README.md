@@ -1,11 +1,11 @@
-# Big data for specific emotion detection model: any position and representative emotion hashtag approach  
+# Evaluation of Large Tweet Dataset for Emotion Detection Model: 
+# A Comparative Study between Traditional ML and Transformer 
+  
 
 SanghyubJohn Lee, JongYoon Lim, Leo Paas, HoSeok Ahn
 
 Abstract:
-Prediction of human emotion has been and remains a major challenge in many research fields such as psychology, neuroscience, and computer science. Tweets are considered as a suitable source for collecting big data using emotion hashtags as automated emotion annotations. However, little is known about data collection criteria. To elucidate unclear criteria, this paper collected over five million tweets (n=5,645,139) that were divided into six datasets. Machine learning (ML) models were evaluated on both internal (30 analyses) and external test sets (30 analyses), proposing the high-quality emotion labelled dataset (n=1,478,116; any position of representative emotions hashtags). Furthermore, this paper compared the model trained on the proposed dataset with the model trained on a small dataset. We find that this large dataset further improved the model performance in deep learning (18 analyses) than in traditional ML algorithms (30 analyses). Finally, we share the proposed dataset with other researchers to contribute to future specific emotion detection model studies.
-
-Keywords: big data, specific emotion, emotion hashtags, emotion labelled tweets, natural language processing
+Specific emotion detection in written human language is a challenging problem in various research fields, including psychology, neuroscience, and computer science. Twitter is a suitable source for collecting a large emotion dataset, as users have provided tweets with emotion hashtags (e.g., #fear, #anger, #sadness, #joy, #surprise, and #disgust) expressing their emotions. However, the criteria for data collection, i.e., the position of representative or synonymous emotion hashtags, remains unclear. In addition, we assess the suitability of various machine learning (ML) algorithms for this purpose. In this study, we collected over five million tweets (n=5,645,139) with 24 emotion hashtags and investigated the efficacy of different criteria for collecting tweets. Contrary to previous research, we found that applying any position of representative emotion hashtags can achieve strong performance, rather than applying the last position of synonymous emotion hashtags. Our study shows that the RoBERTa-large transformer model can significantly improve model performance compared to deep learning algorithms as well as traditional ML algorithms, especially when training on the dataset with a balance between size and quality. We also found that larger datasets are more efficient for RoBERTa model training than smaller datasets when applying the same quality criteria. Finally, we are sharing the proposed emotion dataset, namely, the 6H-AP emotion dataset, with other researchers to advance future specific emotion detection model studies.
 
 
 # Python code example
